@@ -1,16 +1,29 @@
+using System;
+using CorposCelestes.Asteroides;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
-public abstract class Asteroid : MonoBehaviour
+public class Asteroid : MonoBehaviour
 {
-    public int Life {get; set;}
-    public int Resistence {get; set;} 
-    public int Size {get; set;} 
+    private AsteroidStatus Status;
+    private float lifeTime = 50; 
+    private float clock; 
 
-    public Asteroid(int life, int resistence, int size)
+    public Asteroid(AsteroidStatus status)
     {
-        Life = life; 
-        Resistence = resistence; 
-        Size = size; 
+        Status = status; 
+    }
+
+    private void Start()
+    {
+        //GetComponent<ConstantForce2D>().force = new Vector2(0, 0);  
+    }
+
+    private void Update()
+    {
+        // clock += Time.deltaTime;
+        // if (clock > lifeTime)
+        //     Destroy(); 
     }
 
     public void Destroy()
