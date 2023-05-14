@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Movimentacao : MonoBehaviour
 {
-    float velocidade = 6;
+    float velocidade = 3;
     
     void Start()
     {
