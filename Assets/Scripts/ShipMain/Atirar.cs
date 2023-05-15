@@ -14,8 +14,6 @@ public class Atirar : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.Space))
         {
             var bullet = Instantiate(bulletPrefab, bulletSpawPoint.position, bulletSpawPoint.rotation);
-            bullet.GetComponent<Rigidbody2D>().velocity = bulletSpawPoint.up * Time.deltaTime;
         }
-        
     }
 }
