@@ -124,7 +124,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 4.69
+  m_Radius: 0.46
 --- !u!114 &7520062525352202501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -137,6 +137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce1eb3467bce73197a156212326b1153, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LowerAsteroid: {fileID: 5877730684100590173}
 --- !u!247 &-3258359172987770614
 ConstantForce2D:
   m_ObjectHideFlags: 0
@@ -145,6 +146,6 @@ ConstantForce2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5877730684100590173}
   m_Enabled: 1
-  m_Force: {x: -0.29104316, y: 0}
-  m_RelativeForce: {x: -0.47458673, y: 0.19047426}
+  m_Force: {x: 0.48782468, y: 0}
+  m_RelativeForce: {x: 0.29074752, y: 0.3070029}
   m_Torque: 0

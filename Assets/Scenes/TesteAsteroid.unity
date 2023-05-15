@@ -131,6 +131,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4337807974304820136, guid: 12f00f27fdd9e623ab4858377ba428d0, type: 3}
+      propertyPath: AsteroidModel
+      value: 
+      objectReference: {fileID: 5877730684100590173, guid: dc60aafc8088f83fdbe83aa43666b994, type: 3}
+    - target: {fileID: 4337807974304820136, guid: 12f00f27fdd9e623ab4858377ba428d0, type: 3}
       propertyPath: AsteroidSpawnDelay
       value: 2
       objectReference: {fileID: 0}
@@ -333,6 +337,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4337807974304820136, guid: 12f00f27fdd9e623ab4858377ba428d0, type: 3}
+      propertyPath: AsteroidModel
+      value: 
+      objectReference: {fileID: 5877730684100590173, guid: dc60aafc8088f83fdbe83aa43666b994, type: 3}
+    - target: {fileID: 4337807974304820136, guid: 12f00f27fdd9e623ab4858377ba428d0, type: 3}
       propertyPath: AsteroidSpawnDelay
       value: 2
       objectReference: {fileID: 0}
@@ -394,6 +402,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4337807974304820136, guid: 12f00f27fdd9e623ab4858377ba428d0, type: 3}
+      propertyPath: AsteroidModel
+      value: 
+      objectReference: {fileID: 5877730684100590173, guid: dc60aafc8088f83fdbe83aa43666b994, type: 3}
+    - target: {fileID: 4337807974304820136, guid: 12f00f27fdd9e623ab4858377ba428d0, type: 3}
       propertyPath: AsteroidSpawnDelay
       value: 2
       objectReference: {fileID: 0}
@@ -454,6 +466,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4337807974304820136, guid: 12f00f27fdd9e623ab4858377ba428d0, type: 3}
+      propertyPath: AsteroidModel
+      value: 
+      objectReference: {fileID: 5877730684100590173, guid: dc60aafc8088f83fdbe83aa43666b994, type: 3}
     - target: {fileID: 4337807974304820136, guid: 12f00f27fdd9e623ab4858377ba428d0, type: 3}
       propertyPath: AsteroidSpawnDelay
       value: 2
