@@ -8,12 +8,17 @@ public class Atirar : MonoBehaviour
     public GameObject bulletPrefab;
     public float bulletSpeed = 10;
 
+    public float AsteroidSpawnDelay = 0.2f;
+    public float clock;
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.Space))
+        clock += Time.deltaTime;
+        if (clock <= AsteroidSpawnDelay) return;
+        if (Input.GetKey(KeyCode.Space))
         {
             var bullet = Instantiate(bulletPrefab, bulletSpawPoint.position, bulletSpawPoint.rotation);
+            clock = 0;
         }
     }
 }

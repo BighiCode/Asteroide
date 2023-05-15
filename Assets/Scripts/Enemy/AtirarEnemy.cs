@@ -8,14 +8,22 @@ public class AtirarEnemy : MonoBehaviour
     public GameObject bulletPrefab;
     public float bulletSpeed = 1;
 
+    public int AsteroidSpawnDelay = 5;
+    public float clock;
+
+    private void Start()
+    {
+        clock = 3;
+    }
+
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyUp(KeyCode.Space))
-        {
-            var bullet = Instantiate(bulletPrefab, bulletSpawPoint.position, bulletSpawPoint.rotation);
-            bullet.GetComponent<Rigidbody2D>().velocity = bulletSpawPoint.up * bulletSpeed ;
-        }
+
+        clock += Time.deltaTime;
+        if (clock <= AsteroidSpawnDelay) return;
+        Instantiate(bulletPrefab, bulletSpawPoint.position, bulletSpawPoint.rotation);
+        clock = 0;
 
     }
 }
