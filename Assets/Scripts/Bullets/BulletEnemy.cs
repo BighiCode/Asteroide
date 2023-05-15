@@ -9,7 +9,7 @@ public class BulletEnemy : MonoBehaviour
     private void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
-        _rb.AddForce(transform.up * 10f, ForceMode2D.Impulse);
+        _rb.AddForce(transform.up * 4f, ForceMode2D.Impulse);
     }
 
     private void LateUpdate()

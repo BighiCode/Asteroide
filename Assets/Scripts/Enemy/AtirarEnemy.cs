@@ -11,6 +11,11 @@ public class AtirarEnemy : MonoBehaviour
     public int AsteroidSpawnDelay = 5;
     public float clock;
 
+    private void Start()
+    {
+        clock = 3;
+    }
+
     // Update is called once per frame
     void Update()
     {
