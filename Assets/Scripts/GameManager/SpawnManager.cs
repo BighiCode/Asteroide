@@ -1,5 +1,6 @@
 using CorposCelestes.Asteroides;
 using UnityEngine;
+using UnityEngine.SocialPlatforms;
 
 namespace GameManager
 {
@@ -24,5 +25,6 @@ namespace GameManager
             prefab.GetComponent<ConstantForce2D>().relativeForce = new Vector2(Random.Range(-0.5F,0.5F), Random.Range(-0.5F,0.5F));
             Instantiate(prefab, local, Quaternion.identity);
         }
+
     }
 }

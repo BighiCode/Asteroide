@@ -11,10 +11,12 @@ public class Atirar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (Input.GetKeyUp(KeyCode.Space))
         {
+            
             var bullet = Instantiate(bulletPrefab, bulletSpawPoint.position, bulletSpawPoint.rotation);
-            bullet.GetComponent<Rigidbody2D>().velocity = bulletSpawPoint.up * Time.deltaTime;
+            bullet.GetComponent<Rigidbody2D>().velocity = bulletSpawPoint.up;
         }
         
     }
