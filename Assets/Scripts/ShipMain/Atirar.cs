@@ -6,7 +6,7 @@ public class Atirar : MonoBehaviour
 {
     public Transform bulletSpawPoint;
     public GameObject bulletPrefab;
-    public float bulletSpeed = 10;
+    public float bulletSpeed = 40;
 
     public float AsteroidSpawnDelay = 0.2f;
     public float clock;
