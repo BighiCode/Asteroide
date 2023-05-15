@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7265501686022533657}
   - component: {fileID: 7083445284672999756}
   - component: {fileID: 3437035081720671719}
+  - component: {fileID: 2954376104187378357}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -165,6 +166,20 @@ MonoBehaviour:
   bulletSpawPoint: {fileID: 4667987663307206887}
   bulletPrefab: {fileID: 2905424628953339190, guid: fa3df3dbc8a15af4e83b3270fe36fe44, type: 3}
   bulletSpeed: 4
+  AsteroidSpawnDelay: 5
+  clock: 0
+--- !u!114 &2954376104187378357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5079294698998856831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8546daae03a41434282f473c1f98d452, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6872253408584830790
 GameObject:
   m_ObjectHideFlags: 0
