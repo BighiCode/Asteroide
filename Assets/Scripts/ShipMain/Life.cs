@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VidaInimigo : MonoBehaviour
+public class Life : MonoBehaviour
 {
 
     public int life = 1;
@@ -17,11 +17,9 @@ public class VidaInimigo : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        
-     if (collision.gameObject.CompareTag("BulletShip"))
-        TakeDamage();
-        
+
+        if (collision.gameObject.CompareTag("Bullet"))
+            TakeDamage();
+
     }
-
-
 }
